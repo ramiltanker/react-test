@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.card_title {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 20px;
+}
+
+.card_text {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 15px;
+}
